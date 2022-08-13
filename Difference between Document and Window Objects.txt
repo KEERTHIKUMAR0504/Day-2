@@ -1,0 +1,11 @@
+DIFFERENCE BETWEEN DOCUMENT AND WINDOW OBJECTS:
+
+            1.Document object represents any HTML document or web page that is loaded in browser. Window object represents a browser window or frame that displays the contents of the webpage.
+         
+            2.Document object is loaded inside the window and it is object of the window property. Window object is loaded in the browser and it is the object of the browser.
+
+            3.In Document object, we can access the document from a window using the window.documet. Whereas in the case Window object, we can access the window from the window only using the window.window.
+
+            4.Properties of document object such as title, body, cookies, etc can also be accessed by a window. Properties of window object cannot be accessed by the document object.
+
+            5.The document is part of Browser Object Model and Document Object Model. Window is part of Browser Object Model only.
